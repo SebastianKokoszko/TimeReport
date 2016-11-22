@@ -1,0 +1,26 @@
+-Configure GIT + GitExtensions
+-Jenkins setup for nightly builds
+-Code analysis setup
+-Unit tests setup
+-Jenkins setup to support unit test & code analysis
+-Prepare initial components: Xamarin, SQL DB, WebView, DesktopView
+-Configure MS Build to automate all work / Configure NAnt
+-Wix for desktop app
+-Xamarin app deployment setup
+-Database design
+-DesktopView design
+-Xamarin app design
+-WebView design
+-XamarinApp
+-DesktopView resources setup
+-DesktopView style setup
+-DesktopView resources setup
+-XamarinView style setup
+-XamarinView widget
+-XamarinView: import/export from/to JSON
+-XamarinView: import/export from/to XML
+-XamarinView: WCF use to communicate with DesktopView
+-XamarinView: SQL CE integration
+-XamarinView: SQL Express integration
+-DesktopView: SQL Express integration
+-WebView: SQL Express integration
