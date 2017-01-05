@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>TimeReportDatabase</Name>
+    <Name>TimeReport.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{26395cef-23a8-404c-8826-67a91530d256}</ProjectGuid>
@@ -12,8 +12,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>TimeReportDatabase</RootNamespace>
-    <AssemblyName>TimeReportDatabase</AssemblyName>
+    <RootNamespace>TimeReport.Database</RootNamespace>
+    <AssemblyName>TimeReport.Database</AssemblyName>
     <ModelCollation>1045,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -25,6 +25,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>Polish_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <GenerateCreateScript>True</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -48,6 +49,7 @@
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <RunSqlCodeAnalysis>True</RunSqlCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>

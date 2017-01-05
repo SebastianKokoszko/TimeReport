@@ -7,8 +7,8 @@
     <ProjectGuid>{0C98B285-BC68-4BF1-86EB-29B8D9A00C28}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TimeReportView</RootNamespace>
-    <AssemblyName>TimeReportView</AssemblyName>
+    <RootNamespace>TimeReport.DesktopView</RootNamespace>
+    <AssemblyName>TimeReport.DesktopView</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -94,6 +95,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeReport.Core\TimeReport.Core.csproj">
+      <Project>{7c1629d6-a0ec-4922-9814-c6e686cf7aae}</Project>
+      <Name>TimeReport.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeReport.StatisticsEngine\TimeReport.StatisticsEngine.fsproj">
+      <Project>{3ad665d4-a368-42fb-b8fc-287c5c4db623}</Project>
+      <Name>TimeReport.StatisticsEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
