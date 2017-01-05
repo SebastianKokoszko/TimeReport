@@ -9,8 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EE180F1-1C5F-4F18-81D7-6DAA57CD4DB1}"
 	ProjectSection(SolutionItems) = preProject
+		TimeReportSystem.dgml = TimeReportSystem.dgml
 		TODO.txt = TODO.txt
 	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TimeReportDatabase", "TimeReportDatabase\TimeReportDatabase.sqlproj", "{26395CEF-23A8-404C-8826-67A91530D256}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TimeReport.StatisticsEngine", "TimeReport.StatisticsEngine\TimeReport.StatisticsEngine.fsproj", "{3AD665D4-A368-42FB-B8FC-287C5C4DB623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +27,16 @@ Global
 		{0C98B285-BC68-4BF1-86EB-29B8D9A00C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C98B285-BC68-4BF1-86EB-29B8D9A00C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C98B285-BC68-4BF1-86EB-29B8D9A00C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26395CEF-23A8-404C-8826-67A91530D256}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3AD665D4-A368-42FB-B8FC-287C5C4DB623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD665D4-A368-42FB-B8FC-287C5C4DB623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD665D4-A368-42FB-B8FC-287C5C4DB623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD665D4-A368-42FB-B8FC-287C5C4DB623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

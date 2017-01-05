@@ -1,4 +1,3 @@
--Configure GIT + GitExtensions
 -Jenkins setup for nightly builds
 -Code analysis setup
 -Unit tests setup
