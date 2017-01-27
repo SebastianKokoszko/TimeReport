@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("TimeReportView")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("infor.com")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("TimeReportView")]
-[assembly: AssemblyCopyright("Copyright © infor.com 2016")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
