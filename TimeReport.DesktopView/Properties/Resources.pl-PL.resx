@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MainWindowHeader" xml:space="preserve">
-    <value>Time Report - Desktop</value>
+    <value>Czas Pracy - Desktop</value>
   </data>
   <data name="SettingsButtonText" xml:space="preserve">
-    <value>Settings</value>
+    <value>Ustawienia</value>
   </data>
 </root>
