@@ -1,4 +1,5 @@
--Jenkins setup for nightly builds
+-Arrange story board
+-Jenkins setup for release builds
 -Code analysis setup
 -Unit tests setup
 -Jenkins setup to support unit test & code analysis
@@ -23,3 +24,4 @@
 -XamarinView: SQL Express integration
 -DesktopView: SQL Express integration
 -WebView: SQL Express integration
+-Consider signing assemblies with the strong name (enable rule in rulesets)
