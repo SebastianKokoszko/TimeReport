@@ -7,7 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeReport.DesktopView", "T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EE180F1-1C5F-4F18-81D7-6DAA57CD4DB1}"
 	ProjectSection(SolutionItems) = preProject
-		TimeReportSystem.dgml = TimeReportSystem.dgml
 		TODO.txt = TODO.txt
 	EndProjectSection
 EndProject
