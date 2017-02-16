@@ -1,16 +1,18 @@
-﻿using System.Reflection;
+﻿using System;
 using System.Runtime.CompilerServices;
+using System.Reflection;
+using System.Resources;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TimeReport.Core")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("The core library for the base types of entire Time Report system")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Sebastian Kokoszko")]
 [assembly: AssemblyProduct("TimeReport.Core")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Sebastian Kokoszko 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,3 +36,7 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+[assembly: InternalsVisibleTo("Tests", AllInternalsVisible = true)]
+[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.MainAssembly)]
+[assembly: CLSCompliant(true)]

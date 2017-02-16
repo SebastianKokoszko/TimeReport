@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -50,8 +51,30 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="DesktopView\MainWindowViewModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeReport.Core\TimeReport.Core.csproj">
+      <Project>{7c1629d6-a0ec-4922-9814-c6e686cf7aae}</Project>
+      <Name>TimeReport.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeReport.Database\TimeReport.Database.sqlproj">
+      <Project>{26395cef-23a8-404c-8826-67a91530d256}</Project>
+      <Name>TimeReport.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeReport.DesktopView\TimeReport.DesktopView.csproj">
+      <Project>{0c98b285-bc68-4bf1-86eb-29b8d9a00c28}</Project>
+      <Name>TimeReport.DesktopView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeReport.MobileView\TimeReport.MobileView.csproj">
+      <Project>{18813a17-56ad-4a99-a08a-cf838e108156}</Project>
+      <Name>TimeReport.MobileView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeReport.StatisticsEngine\TimeReport.StatisticsEngine.fsproj">
+      <Project>{3ad665d4-a368-42fb-b8fc-287c5c4db623}</Project>
+      <Name>TimeReport.StatisticsEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
