@@ -1,6 +1,6 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Resources;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -8,14 +8,16 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TimeReport.DesktopView")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("The desktop application for time report system management")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Sebastian Kokoszko")]
 [assembly: AssemblyProduct("TimeReport.DesktopView")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Sebastian Kokoszko 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.MainAssembly)]
+[assembly: Guid("F9BC4F15-B8C7-4E0B-9F9D-EABAAA7455B3")]
+[assembly: CLSCompliant(true)]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

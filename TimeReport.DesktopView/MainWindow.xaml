@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:TimeReport.DesktopView"
         xmlns:properties="clr-namespace:TimeReport.DesktopView.Properties"
         mc:Ignorable="d"
-        Title="{x:Static properties:Resources.MainWindowHeader}" Height="350" Width="525">
+        DataContext="local:MainWindowViewModel"
+        Title="{x:Static properties:Resources.MainWindowHeader}" Height="480" Width="640">
     <Grid>
         <Button x:Name="button" Content="{x:Static properties:Resources.SettingsButtonText}" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top"  Width="76" Height="28"/>
+        <Grid Name="MainContent" Height="400" Margin="0,50,0,0" Width="638" />
     </Grid>
 </Window>
